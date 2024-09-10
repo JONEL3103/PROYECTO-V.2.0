@@ -1,0 +1,188 @@
+/* Estilo general del body */
+body {
+    background-color: #6C8C7E;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú de navegación */
+.menu {
+    background-color: #8B0000;
+    padding: 10px 0;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 24px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección principal */
+.main-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.background-image img {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+/* Estilo para el texto de "Primera prueba gratis" */
+.announcement h1 {
+    font-size: 36px;
+    color: #2F4F4F;
+    animation: marquee 3s infinite alternate;
+}
+
+/* Formulario */
+.payment-form {
+    margin-top: 20px;
+}
+
+.payment-form select,
+.payment-form input[type="submit"] {
+    margin-top: 10px;
+}
+
+/* Animación para simular marquee */
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20px); }
+}
+
+/* Imágenes adicionales */
+.additional-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+/* Estilo general del body */
+body {
+    background-color: #6C8C7E;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Menú de navegación */
+.navigation-menu {
+    display: flex;
+    background-color: #8B0000;
+    height: 30px;
+}
+
+.navigation-menu .menu-item {
+    color: white;
+    font-size: 24px; /* Equivalente a font size 6 */
+    text-align: center;
+    display: flex;
+    align-items: center; /* Alineación vertical */
+    justify-content: center; /* Alineación horizontal */
+}
+
+.navigation-menu .menu-item:nth-child(1) {
+    flex: 0 0 30%;
+}
+
+.navigation-menu .menu-item:nth-child(2) {
+    flex: 0 0 40%;
+}
+
+.navigation-menu .menu-item:nth-child(3) {
+    flex: 0 0 30%;
+}
+
+/* Imagen de fondo */
+.background-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Sección de contenido */
+.content-section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.marquee-text {
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee-text h1 {
+    font-size: 24px;
+    color: #2F4F4F;
+    animation: marquee 3s infinite alternate;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20px); }
+}
+
+.form-container {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container form {
+    text-align: center;
+}
+
+.form-container label {
+    display: block;
+}
+
+.form-container select,
+.form-container input[type="submit"] {
+    margin-top: 10px;
+}
+
+/* Imágenes adicionales */
+.additional-images {
+    display: flex;
+}
+
+.image-container {
+    flex: 0 0 50%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
